@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html{
+    background-color: rgb(176, 216, 241);
+    font-family: "Quicksand", sans-serif;
+}
+
+.header{
+    background-color: rgb(48, 123, 204);
+    position: sticky;
+}
+
+.header__logo{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.header__menu{
+    list-style-type: none;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+.header__menu--lista{
+    display: inline;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-decoration: none;
+}
+
+.tabela{
+    text-align: center;
+    width:50%; 
+    margin-left:25%; 
+    margin-right:25%;
+}
+
+th {
+    background-color:rgb(48, 123, 204);
+    color: white;
+  }
+
+.botao{
+    text-align: center;    
+}
+
+.botao__texto{
+    text-align: center;    
+    background-color: rgb(1, 1, 21);
+    color: azure;
+    font-size: 16px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.centralizar{
+    text-align: center;    
+}
+
+.linha{
+    display: inline-block;
+    text-align: center;  
+}
+
+.footer{
+    text-align: center;  
+    font-size: 14px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
